@@ -11,11 +11,10 @@ int main(void)
 char message[] = "% s with proper grammar, but the outcome is a piece of art,";
 /**
  * printf - prints a string using printf
- * @message: message
- * @std: message
+ * @message: messagee
  * Prints a message
  * Return a message
  */
-	printf(std, message);
+	printf(message);
 	return (0);
 }
