@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc echo -e $CFILE ./a.out > c
+gcc $(echo -e $CFILE) | ./a.out > c
