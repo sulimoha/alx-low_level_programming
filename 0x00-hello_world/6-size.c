@@ -14,7 +14,7 @@ int main(void)
 	char mf[] = "Size of a float: %d byte(s)\n";
 	char mli[] = "Size of a long int: %d byte(s)\n";
 	char mi[] = "Size of an int: %d byte(s)\n";
-	char mc[] = "Size of an char: %d byte(s)\n";
+	char mc[] = "Size of a char: %d byte(s)\n";
 	char mlli[] = "Size of a long long int: %d byte(s)\n";
 /**
  * printf - prints a string size of data typr in byte(s)
