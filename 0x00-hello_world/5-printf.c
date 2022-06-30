@@ -9,7 +9,7 @@
 int main(void)
 {
 	char message1[] = "%s with proper grammar,";
-	char message2[] = "%s but the outcome is a piece of art,\n";
+	char message2[] = " but the outcome is a piece of art,\n";
 /**
  * printf - prints a string using printf
  * @message1: message
