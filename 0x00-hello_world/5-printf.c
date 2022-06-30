@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-char message[] = "% s with proper grammar, but the outcome is a piece of art,";
+char message[] = "proper grammar, but the outcome is a piece of art,";
 /**
  * printf - prints a string using printf
  * @message: messagee
  * Prints a message
  * Return a message
  */
-	printf(message);
+	printf("with %s ", message);
 	return (0);
 }
