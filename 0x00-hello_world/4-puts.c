@@ -1,5 +1,5 @@
 /**
- * How to use puts()
+ * puts - How to use puts()
  */
 #include <stdio.h>
 /**
