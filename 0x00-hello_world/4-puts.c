@@ -4,7 +4,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * @parameter: no parameters
+ * @parametervoid: no parameters
  *
  * Entry point
  * returns zero
