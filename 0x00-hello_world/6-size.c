@@ -13,9 +13,9 @@ int main(void)
 	double d;
 	float f;
 /**
- * printf - prints a string using printf
- * @message1: message
- * @message2: message
+ * printf - prints a stringize of data typr in byte(s)
+ * @byte(s\n\":message
+ *
  * Prints a message
  * Return a message
  */
