@@ -15,7 +15,7 @@ int main(void)
  * Prints a message
  * Return a message
  */
-	char message [] = "\"Programming is like building a multilingual puzzle"
+	char message [] = "\"Programming is like building a multilingual puzzle";
 	puts(message);
 	return (0);
 }
