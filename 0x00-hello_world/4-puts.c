@@ -1,10 +1,9 @@
 /**
- * This is a C program that prints exactly \"Programming is like building a
- * multilingual puzzle, followed by a new line
+ * How to use puts()
  */
 #include <stdio.h>
 /**
- * main function
+ * main - entry point
  * @parameter: no parameters
  *
  * Entry point
