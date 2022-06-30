@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char message1[] = "%s with proper grammar,"
+	char message1[] = "%s with proper grammar,";
 	char message2[] = "%s but the outcome is a piece of art,\n";
 /**
  * printf - prints a string using printf
