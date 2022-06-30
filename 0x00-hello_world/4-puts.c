@@ -1,10 +1,7 @@
-/**
- * puts - How to use puts()
- */
-#include <stdio.h>
+#include <stdio.h>                                                                                          
 /**
  * main - entry point
- * @parametervoid: no parameters
+ * @void: no parameters
  *
  * Entry point
  * returns zero
