@@ -10,12 +10,12 @@ int main(void)
 {
 /**
  * puts - prints a string using puts
- * @Programming is like building a multilingual puzzle followed by a new line:
- * message
+ * @message: message
  *
  * Prints a message
  * Return a message
  */
-	puts("\"Programming is like building a multilingual puzzle");
+	char message [] = "\"Programming is like building a multilingual puzzle"
+	puts(message);
 	return (0);
 }
