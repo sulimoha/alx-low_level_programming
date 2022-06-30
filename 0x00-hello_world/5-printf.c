@@ -17,6 +17,6 @@ int main(void)
  * Prints a message
  * Return a message
  */
-	printf(message2, message1);
+	printf(message1, message2);
 	return (0);
 }
