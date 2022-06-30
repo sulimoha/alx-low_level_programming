@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-char message[] = "with proper grammar, but the outcome is a piece of art,\n";
+	char message1[] = "%s with proper grammar,"
+	char message2[] = "%s but the outcome is a piece of art,\n";
 /**
  * printf - prints a string using printf
- * @message: message
- * @stderr: message
+ * @message1: message
+ * @message2: message
  * Prints a message
  * Return a message
  */
-	printf(stderr, % s,  message);
+	printf(message1, message2);
 	return (0);
 }
