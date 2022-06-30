@@ -4,7 +4,7 @@
  * @void: no parameters
  *
  * Entry point
- * returns zero
+ * Return: 0
  */
 int main(void)
 {
