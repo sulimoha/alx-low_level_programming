@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+	char message[] = "\"Programming is like building a multilingual puzzle";
 /**
  * puts - prints a string using puts
  * @message: message
@@ -15,7 +16,6 @@ int main(void)
  * Prints a message
  * Return a message
  */
-	char message[] = "\"Programming is like building a multilingual puzzle";
 	puts(message);
 	return (0);
 }
