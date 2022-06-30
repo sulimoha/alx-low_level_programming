@@ -16,6 +16,6 @@ char message[] = "with proper grammar, but the outcome is a piece of art,\n";
  * Prints a message
  * Return a message
  */
-	fprintf(stderr, message);
+	printf(stderr, % s,  message);
 	return (0);
 }
