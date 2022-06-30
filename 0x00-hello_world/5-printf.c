@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-	char message[] = "\"with proper grammar, but the outcome is a piece of art,";
+char message[] = "% s with proper grammar, but the outcome is a piece of art,";
 /**
  * printf - prints a string using printf
  * @message: message
- *
  * Prints a message
  * Return a message
  */
