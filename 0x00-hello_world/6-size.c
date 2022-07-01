@@ -32,6 +32,6 @@ int main(void)
 	print((k, e);
 	fprintf(m, sizeof((long)i));
 	fprintf(n, sizeof((long long)i));
-	fprintf(o, sizeof(b));
+	fprintf(o, b);
 	return (0);
 }
