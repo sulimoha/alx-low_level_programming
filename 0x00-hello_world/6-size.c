@@ -28,10 +28,10 @@ int main(void)
  * Prints a message
  * Return a message
 */
-	printf(k, sizeof(c));
-	print((l, sizeof(i));
-	printf(m, sizeof((long)i));
-	printf(n, sizeof((long long i));
-	printf(o, sizeof(f));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d byte(s)\n", sizeof((long)i));
+	printf("Size of a long long int: %d byte(s)\n", sizeof((long long i));
+	printf("Size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
 }
