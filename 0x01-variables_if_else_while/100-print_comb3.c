@@ -16,12 +16,12 @@ int main(void)
 	{
 		putchar(num);
 		num+= 1;
+		putchar(num);
+		num-= 1;
 		if (num == '9')
 		{
 			break;
 		}
-		putchar(num);
-		num-= 1;
 		putchar(',');
 		putchar(' ');
 	}
