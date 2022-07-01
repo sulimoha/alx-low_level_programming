@@ -31,7 +31,7 @@ int main(void)
 	printf(k, sizeof(c));
 	print((l, sizeof(i));
 	printf(m, sizeof((long)i));
-	printf(n, sizeof((long long)i));
+	printf(n, sizeof((long long i));
 	printf(o, sizeof(f));
 	return (0);
 }
