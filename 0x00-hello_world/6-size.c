@@ -8,31 +8,30 @@
  */
 int main(void)
 {
-	char c = sizeof(c);
-	int i = sizeof(i);
-	float f = sizeof(f);
-	char mf[] = "Size of a float: %d byte(s)\n";
-	char mli[] = "Size of a long int: %d byte(s)\n";
-	char mi[] = "Size of an int: %d byte(s)\n";
-	char mc[] = "Size of a char: %d byte(s)\n";
-	char mlli[] = "Size of a long long int: %d byte(s)\n";
+	int i;
+	int a = sizeof(i);
+	float f;
+	int b = sizeof(f);
+	char c;
+	int e = sizeof(c);
+	char n[] = "Size of a long long int: %d byte(s)\n";
+	char o[] = "Size of a float: %d byte(s)\n";
+	char l[] = "Size of an int: %d byte(s)\n";
+	char k[] = "Size of a char: %d byte(s)\n";
+	char m[] = "Size of a long int: %d byte(s)\n";
 /**
  * printf - prints a string size of data typr in byte(s)
- * @c: c
- * @mc: messag
- * @mi: message
- * @mli: messagel
- * @mlli: messagell
- * @mf: messagef
- * @sizeof(c): sizeof(c)
+ *@a: a
+ *@b: b
+ *@e:e
  *
  * Prints a message
  * Return a message
 */
-	printf(mc, c);
-	printf(mi, i);
-	printf(mli, sizeof((long)i));
-	printf(mlli, sizeof((long long)i));
-	printf(mf, sizeof(f));
+	sprintf(l, a));
+	fprintf(k, e);
+	fprintf(m, sizeof((long)i));
+	fprintf(n, sizeof((long long)i));
+	fprintf(o, sizeof(b));
 	return (0);
 }
