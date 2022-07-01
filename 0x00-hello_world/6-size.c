@@ -28,10 +28,10 @@ int main(void)
  * Prints a message
  * Return a message
 */
-	printf(k, e);
-	print((l, a);
-	fprintf(m, sizeof((long)i));
-	fprintf(n, sizeof((long long)i));
-	fprintf(o, b);
+	printf(k, sizeof(c));
+	print((l, sizeof(i));
+	printf(m, sizeof((long)i));
+	printf(n, sizeof((long long)i));
+	printf(o, sizeof(f));
 	return (0);
 }
