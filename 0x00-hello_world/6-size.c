@@ -28,8 +28,8 @@ int main(void)
  * Prints a message
  * Return a message
 */
-	sprintf(l, a));
-	fprintf(k, e);
+	printf(l, a);
+	print((k, e);
 	fprintf(m, sizeof((long)i));
 	fprintf(n, sizeof((long long)i));
 	fprintf(o, sizeof(b));
