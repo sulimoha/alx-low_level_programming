@@ -10,21 +10,18 @@
 */
 int main(void)
 {
-	int num;
+	int i;
+	int j;
 
-	for (num = '0'; num <= '9'; num++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(num);
-		num+= 1;
-		putchar(num);
-		num-= 1;
-		if (num == '9')
+		for (j = '1'; j <=9; j++)
 		{
-			break;
+			putchar(i);
+			putchar(j);
+			putchar(',');
+			putchar(' ');
 		}
-		putchar(',');
-		putchar(' ');
-	}
 		putchar('\n');
 		return (0);
 }
