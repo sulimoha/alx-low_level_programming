@@ -24,15 +24,18 @@ int main(void)
 			}
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = '1'; l <= '9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(' ');
-					putchar(k);
-					putchar(l);
-					putchar(',');
-					putchar(' ');
+					if (i != j && i =! k && i != l)
+					{
+						putchar(i);
+						putchar(j);
+						putchar(' ');
+						putchar(k);
+						putchar(l);
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
