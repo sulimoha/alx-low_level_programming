@@ -24,10 +24,11 @@ int main(void)
 				putchar(' ');
 				putchar(i);
 				putchar(j);
-				if (i == '8')
+				/**if (i == '8')
 				{
 					break;
 				}
+				*/
 				putchar(',');
 				putchar(' ');
 			}
