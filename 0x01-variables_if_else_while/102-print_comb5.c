@@ -17,21 +17,13 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			if (i < j)
-			{
-				putchar(i);
-				putchar(i);
-				putchar(' ');
-				putchar(j);
-				putchar(j);
-				/**if (i == '8')
-				{
-					break;
-				}
-				*/
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(i);
+			putchar(j);
+			putchar(' ');
+			putchar(i);
+			putchar(j);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
