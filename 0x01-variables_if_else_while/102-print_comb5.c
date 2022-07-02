@@ -22,7 +22,7 @@ int main(void)
 				putchar(i);
 				putchar(i);
 				putchar(' ');
-				putchar(i);
+				putchar(j);
 				putchar(j);
 				/**if (i == '8')
 				{
