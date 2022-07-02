@@ -35,7 +35,7 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-						if (j == '8' && i == 9)
+						if (j == '8' && i == '9')
 						{
 							break;
 						}
