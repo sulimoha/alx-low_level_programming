@@ -12,18 +12,26 @@ int main(void)
 {
 	int i;
 	int j;
+	int k;
+	int l;
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			putchar(i);
-			putchar(i);
-			putchar(' ');
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');
+			for (k = '0'; k <= '9'; k++)
+			{
+				for (l = '1'; l <= '9'; l++)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(k);
+					putchar(l);
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
