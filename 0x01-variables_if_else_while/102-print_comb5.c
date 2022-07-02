@@ -23,9 +23,9 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					if (i == j && i == k && i == l && j ==
-						       k && j == l && k == l
-						       || (i + j) == (k + l))
+					if ((i == j && i == k && i == l && j ==
+						       k && j == l && k == l)
+						       || ((i + j) == (k + l)))
 					{
 						continue;
 					}
