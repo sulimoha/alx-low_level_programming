@@ -19,7 +19,8 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			if (j == '8'){
+			if (j == '8')
+			{
 				break;
 			}
 			for (k = '0'; k <= '9'; k++)
