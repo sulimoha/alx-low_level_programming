@@ -24,8 +24,7 @@ int main(void)
 				for (l = '1'; l <= '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
-							|| (i == k && j == l)
-							|| (k < j && l < j))
+							|| (i == k && j == l))
 					{
 						continue;
 					}
