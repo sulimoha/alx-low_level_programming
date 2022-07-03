@@ -23,13 +23,14 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					if ((i == j && j == l && l == k) 
-						|| (i == k && j == l))	
+					if ((i == j && j == l && l == k)
+							|| (i == k && j == l))
 					{
 						continue;
 					}
 					else
 					{
+						k+= '1';
 						putchar(i);
 						putchar(j);
 						putchar(' ');
@@ -39,7 +40,6 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				k+= '1';
 			}
 		}
 	}
