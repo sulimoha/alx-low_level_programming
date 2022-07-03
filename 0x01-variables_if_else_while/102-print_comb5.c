@@ -23,7 +23,7 @@ int main(void)
 			a = j + 1;
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = 'a'; l <= '9'; l++)
+				for (l = (char)a; l <= '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
