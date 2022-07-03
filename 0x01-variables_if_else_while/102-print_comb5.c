@@ -17,20 +17,20 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j <= '8'; j++)
+		for (j = '0'; j <= '9'; j++)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					if ((i == j && i == k && i == l && j ==
+					/**if ((i == j && i == k && i == l && j ==
 						       k && j == l && k == l)
 						       || ((i + j) == (k + l)))
 					{
 						continue;
 					}
 					else
-					{
+					{*/
 						putchar(i);
 						putchar(j);
 						putchar(' ');
