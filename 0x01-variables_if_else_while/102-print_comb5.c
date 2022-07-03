@@ -21,8 +21,9 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = 'j+1'; l <= '9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
+					l = j + 1
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
 					{
