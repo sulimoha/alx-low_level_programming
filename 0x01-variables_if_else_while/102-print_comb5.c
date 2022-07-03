@@ -21,7 +21,7 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = '0'; l <= '9'; l++)
+				for (l = '0'; l < '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
@@ -30,6 +30,7 @@ int main(void)
 					}
 					else
 					{
+						l = l + 1;
 						putchar(i);
 						putchar(j);
 						putchar(' ');
