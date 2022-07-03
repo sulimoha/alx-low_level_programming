@@ -23,6 +23,7 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
+					l += 1;
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
 					{
@@ -30,7 +31,6 @@ int main(void)
 					}
 					else
 					{
-						l += 1;
 						putchar(i);
 						putchar(j);
 						putchar(' ');
