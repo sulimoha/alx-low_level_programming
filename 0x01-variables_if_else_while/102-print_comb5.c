@@ -25,7 +25,7 @@ int main(void)
 				{
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l)
-							|| (l < j))
+							|| (k < j && l < j))
 					{
 						continue;
 					}
