@@ -17,14 +17,15 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j <= '8'; j++)
+		for (j = '0'; j <= '9'; j++)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
 				for (l = '1'; l <= '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
-							|| (i == k && j == l))
+							|| (i == k && j == l)
+							|| (i + j > k + l))
 					{
 						continue;
 					}
