@@ -30,7 +30,7 @@ int main(void)
 					}
 					else
 					{
-						k+= '1';
+						k += '1';
 						putchar(i);
 						putchar(j);
 						putchar(' ');
