@@ -14,16 +14,14 @@ int main(void)
 	int j;
 	int k;
 	int l;
-	int a;
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			a = j + 1;
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = (char)a; l <= '9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
