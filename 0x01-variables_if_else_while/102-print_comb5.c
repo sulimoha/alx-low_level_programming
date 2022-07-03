@@ -19,10 +19,9 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			l += 1;
 			for (k = '0'; k <= '9'; k++)
 			{
-				for (l = '0'; l <= '9'; l++)
+				for (l = 'j+1'; l <= '9'; l++)
 				{
 					if ((i == j && j == l && l == k)
 							|| (i == k && j == l))
