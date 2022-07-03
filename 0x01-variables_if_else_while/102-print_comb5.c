@@ -23,14 +23,12 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					/**if ((i == j && i == k && i == l && j ==
-						       k && j == l && k == l)
-						       || ((i + j) == (k + l)))
+					if (i == j && j == l &&  && l == k) 
 					{
 						continue;
 					}
 					else
-					{*/
+					{
 						putchar(i);
 						putchar(j);
 						putchar(' ');
@@ -38,8 +36,7 @@ int main(void)
 						putchar(l);
 						putchar(',');
 						putchar(' ');
-					/*}
-					 */
+					}
 				}
 			}
 		}
