@@ -7,11 +7,6 @@
  */
 int main(void)
 {
-	int c;
-
-
-	c = system("var_s = \'and that piece of art is useful\"- Dora Korpar, 2015-10-19\'");
-	c = system("echo $var_s");
-	c = 1;
-	return (c);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
