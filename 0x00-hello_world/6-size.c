@@ -20,7 +20,7 @@ int main(void)
 	char k[] = "Size of a char: %d byte(s)\n";
 	char m[] = "Size of a long int: %d byte(s)\n";
 /**
-
+*
 */
 	printf("Size of a char: %d byte(s)\n", sizeof(c));
 	printf("Size of an int: %d byte(s)\n", sizeof(i));
