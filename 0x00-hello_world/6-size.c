@@ -14,6 +14,7 @@ int main(void)
 	int b = sizeof(f);
 	char c;
 	int e = sizeof(c);
+	
 	char n[] = "Size of a long long int: %d byte(s)\n";
 	char o[] = "Size of a float: %d byte(s)\n";
 	char l[] = "Size of an int: %d byte(s)\n";
