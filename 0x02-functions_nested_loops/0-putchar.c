@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * main - entry point
  * @void: no parameters
@@ -17,6 +17,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-			
 	return (0);
 }
