@@ -8,21 +8,12 @@
 
 int _islower(int c)
 {
-	int i;
-	int j;
-
-	for (i = 97; i <= 122; i++)
+	if (c >= 97 && <= 122)
 	{
-		if ( c == i)
-		{
-			j = 1;
-			break;
-		}
-		else 
-		{
-		j = 0;
-		break;
-		}
+		return (1);
 	}
-	return (j);
+	else 
+	{
+		return (0);
+	}
 }
