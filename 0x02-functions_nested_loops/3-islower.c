@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *  _islower - entry point
- * @void: no parameters
+ * @c: input charachter
  *
  * Return: 1 if c is lower case and 0 if it is not
 */
@@ -12,7 +12,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
