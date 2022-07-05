@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet_x10 - entry point
  * @void: no parameters
  *
  * Return: 0
 */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int n = 0;
 	while (n < 10)
@@ -19,5 +19,4 @@ int main(void)
 		n++;
 		_putchar('\n');
 	}
-	return (0);
 }
