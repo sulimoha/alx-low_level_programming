@@ -6,7 +6,7 @@
  * Return: 1 if c is lower case and 0 if it is not
 */
 
-int _islower(int c);
+int _islower(int c)
 {
 	char i;
 
