@@ -16,10 +16,12 @@ int _islower(int c)
 		if ( c == i)
 		{
 			j = 1;
+			break;
 		}
 		else 
 		{
 		j = 0;
+		break;
 		}
 	}
 	return (j);
