@@ -9,18 +9,18 @@
 int _islower(int c)
 {
 	int i;
+	int j;
 
 	for (i = 97; i <= 122; i++)
 	{
 		if ( c == i)
 		{
-			return (1);
-			break;
+			j = 1;
 		}
 		else 
 		{
-			return (0);
-			break;
+		j = 0;
 		}
 	}
+	return (j);
 }
