@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table- entry point
- * @void: void
+ * print_times_table- entry point
+ * @n: int
  *
  * Return: times_table
  */
@@ -13,7 +13,7 @@ void print_times_table(int n)
 	int j;
 	int p;
 
-	if (n < 15 || n > 0)
+	if (n < 15 && n > 0)
 	{
 		for (i = 0; i <= n; i++)
 		{
