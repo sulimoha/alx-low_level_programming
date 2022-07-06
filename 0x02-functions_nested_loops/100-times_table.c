@@ -26,10 +26,21 @@ void print_times_table(int n)
 					{
 						printf("%d", p);
 					}
+					else
+					{
+						printf("   %d", p);
+					}
+					if (j != n)
+					{
+						printf(",");
+					}
+				}
+				else if (p < 100)
+				{
 					printf("  %d", p);
 					if (j != n)
 					{
-						_putchar(',');
+						printf(",");
 					}
 				}
 				else
@@ -37,11 +48,14 @@ void print_times_table(int n)
 					printf(" %d", p);
 					if (j != n)
 					{
-						_putchar(',');
+						printf(",");
 					}
 				}
 			}
+			printf("\n");
 			_putchar('\n');
 		}
+		printf("\n");
+		_putchar('\n');
 	}
 }
