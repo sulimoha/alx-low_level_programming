@@ -53,9 +53,7 @@ void print_times_table(int n)
 				}
 			}
 			printf("\n");
-			_putchar('\n');
 		}
 		printf("\n");
-		_putchar('\n');
 	}
 }
