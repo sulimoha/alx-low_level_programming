@@ -8,7 +8,7 @@
  * 3 or 5 below 1024 (excluded)
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 	int sum = 0;
@@ -21,4 +21,5 @@ void main(void)
 		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
