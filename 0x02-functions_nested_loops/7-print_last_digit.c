@@ -8,7 +8,7 @@
 
 int print_last_digit(int n)
 {
-	int signed d = n % 10;
+	int d = (signed)n % 10;
 	_putchar('0' + d);
 	return (d);
 }
