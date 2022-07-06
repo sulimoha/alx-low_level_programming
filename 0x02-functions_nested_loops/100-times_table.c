@@ -7,7 +7,7 @@
  * Return: times_table
  */
 
-void print_times_table(int n)i
+void print_times_table(int n)
 {
 	int i;
 	int j;
