@@ -13,7 +13,7 @@ void print_times_table(int n)
 	int j;
 	int p;
 
-	if ( n == 0)
+	if (n == 0)
 	{
 		printf("0\n");
 	}
