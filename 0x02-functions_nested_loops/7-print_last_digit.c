@@ -8,7 +8,8 @@
 
 int print_last_digit(int n)
 {
-	int d = (signed int long)n % 10;
+	int d = (signed long long)n % 10;
+
 	_putchar('0' + d);
 	return (d);
 }
