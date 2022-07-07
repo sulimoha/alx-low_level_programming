@@ -11,9 +11,9 @@
 int main(void)
 {
 	long int i;
-	long int f_2 = 0;
-	long int f_1 = 1;
-	long int fi = 0;
+	double f_2 = 0;
+	double f_1 = 1;
+	double fi = 0;
 
 	for (i = 0; i < 98; i++)
 	{
