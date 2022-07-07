@@ -1,27 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *_isupper - check if it is uppercase or not
+ *  _isupper - entry point
+ * @c: input charachter
  *
- * Return: 1 for upper and 0 for lower
+ * Return: 1 if c is lupper case and 0 if it is not
 */
+
 int _isupper(int c)
 {
-	char ch;
-
-	char c = c + '0';
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	if (c >= 65 && c <= 90)
 	{
-		if (c == ch)
-		{
-		return (0);
-		}
+		return (1);
 	}
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	else
 	{
-		if (c == ch)
-		{
-			return (1);
-		}
+		return (0);
 	}
 }
