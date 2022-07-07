@@ -22,7 +22,7 @@ int main(void)
 		f_1 = fi;
 		if (i == 49)
 		{
-			printf("%li\n", fi)
+			printf("%li\n", fi);
 		}
 		else
 		{
