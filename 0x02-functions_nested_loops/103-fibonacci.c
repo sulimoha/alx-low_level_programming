@@ -12,9 +12,9 @@ int main(void)
 {
 	long int i;
 	long int f_2 = 0;
-	long int f_1 = 2;
+	long int f_1 = 1;
 	long int fi = 0;
-	long int sum = 0;
+	long int sum = 1;
 
 	for (i = 0; i < 50; i++)
 	{
