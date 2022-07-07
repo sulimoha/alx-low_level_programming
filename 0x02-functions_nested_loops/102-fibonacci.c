@@ -20,7 +20,14 @@ int main(void)
 		fi = f_2 + f_1;
 		f_2 = f_1;
 		f_1 = fi;
-		printf("%li, ", fi);
+		if (i == 49)
+		{
+			printf("%li\n", fi)
+		}
+		else
+		{
+			printf("%li, ", fi);
+		}
 	}
 	return (0);
 }
