@@ -22,11 +22,11 @@ int main(void)
 		f_1 = fi;
 		if (i == 97)
 		{
-			printf("%lf\n", fi);
+			printf("%f\n", fi);
 		}
 		else
 		{
-			printf("%lf, ", fi);
+			printf("%f, ", fi);
 		}
 	}
 	return (0);
