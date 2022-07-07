@@ -9,6 +9,7 @@ int _isupper(int c)
 	char ch;
 
 	char c = c + '0';
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (c == ch)
