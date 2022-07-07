@@ -11,10 +11,10 @@
 int main(void)
 {
 	long int i;
-	double f_2 = 0;
-	double f_1 = 1;
-	double fi = 0;
-	
+	long long f_2 = 0;
+	long long f_1 = 1;
+	long long fi = 0;
+
 	for (i = 0; i < 98; i++)
 	{
 		fi = f_2 + f_1;
