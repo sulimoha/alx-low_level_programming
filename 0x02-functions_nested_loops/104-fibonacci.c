@@ -13,7 +13,7 @@ int main(void)
 	long int i;
 	double f_2 = 0;
 	double f_1 = 1;
-	double fi = 0;
+	long double fi = 0;
 
 	for (i = 0; i < 98; i++)
 	{
