@@ -3,7 +3,7 @@
  *  _isupper - entry point
  * @c: input charachter
  *
- * Return: 1 if c is lupper case and 0 if it is not
+ * Return: 1 if c is upper case and 0 if it is not
 */
 
 int _isupper(int c)
