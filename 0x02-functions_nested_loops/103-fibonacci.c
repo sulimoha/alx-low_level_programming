@@ -25,15 +25,14 @@ int main(void)
 		{
 			if (fi > 4000000)
 			{
-				printf("%li/n",sum);
 				break;
 			}
 			else
 			{
-				printf("%li, ", sum);
 				sum = sum + fi;
 			}
 		}
 	}
+	printf("%li\n", sum);
 	return (0);
 }
