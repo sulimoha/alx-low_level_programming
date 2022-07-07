@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- *print_line - print line
+ *print_diagonal - print diagonal
  *@n:n
  * Return:void
 */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n; n++)
 	{
 		if (n <= 0)
 		{
@@ -16,7 +16,7 @@ void print_line(int n)
 		}
 		else
 		{
-			_putchar('_');
+			_putchar('\\');
 		}
 	}
 	_putchar('\n');
