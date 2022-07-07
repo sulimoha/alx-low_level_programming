@@ -15,14 +15,14 @@ int main(void)
 	long int f_1 = 1;
 	long int fi = 0;
 
-	printf("%li\n", f_2);
-	printf("%li\n", f_1);
-	for (i = 2; i < 50; i++)
+	printf("%li, ", f_2);
+	printf("%li, ", f_1);
+	for (i = 0; i < 50; i++)
 	{
 		fi = f_2 + f_1;
 		f_2 = f_1;
 		f_1 = fi;
-		printf("%li\n", fi);
+		printf("%li, ", fi);
 	}
 	return (0);
 }
