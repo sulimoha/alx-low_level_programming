@@ -10,17 +10,19 @@
 
 int main(void)
 {
-	int i;
-	int f0 = 0;
-	int f1 = 1;
-	int fi = 0;
+	long int i;
+	long int f_2 = 0;
+	long int f_1 = 1;
+	long int fi = 0;
 
-	printf("%d\n", f0);
-	printf("%d\n", f1);
+	printf("%li\n", f_2);
+	printf("%li\n", f_1);
 	for (i = 2; i < 50; i++)
 	{
-			fi = fi + f0 + f1;
-			printf("%d\n", fi);
+		fi = f_2 + f_1;
+		f_2 = f_1;
+		f_1 = fi;
+		printf("%li\n", fi);
 	}
 	return (0);
 }
