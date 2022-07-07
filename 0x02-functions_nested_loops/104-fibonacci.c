@@ -11,10 +11,10 @@
 int main(void)
 {
 	long int i;
-	long double f_2 = 0;
-	long double f_1 = 1;
-	long double fi = 0;
-
+	double f_2 = 0;
+	double f_1 = 1;
+	double fi = 0;
+	
 	for (i = 0; i < 98; i++)
 	{
 		fi = f_2 + f_1;
@@ -22,11 +22,11 @@ int main(void)
 		f_1 = fi;
 		if (i == 97)
 		{
-			printf("%Lg\n", fi);
+			printf("%g\n", fi);
 		}
 		else
 		{
-			printf("%Lg, ", fi);
+			printf("%g, ", fi);
 		}
 	}
 	return (0);
