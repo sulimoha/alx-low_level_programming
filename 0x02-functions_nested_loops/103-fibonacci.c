@@ -11,8 +11,8 @@
 int main(void)
 {
 	long int i;
-	long int f_2 = 1;
-	long int f_1 = 1;
+	long int f_2 = 0;
+	long int f_1 = 0;
 	long int fi = 0;
 	long int sum = 0;
 
