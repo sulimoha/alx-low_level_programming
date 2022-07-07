@@ -14,7 +14,7 @@ int main(void)
 	long int f_2 = 0;
 	long int f_1 = 1;
 	long int fi = 0;
-	long long int sum = 0;
+	long int sum = 0;
 
 	for (i = 0; i < 50; i++)
 	{
@@ -25,12 +25,12 @@ int main(void)
 		{
 			if (fi > 4000000)
 			{
-				printf("%lli/n",sum);
+				printf("%li/n",sum);
 				break;
 			}
 			else
 			{
-				printf("%lli, ", sum);
+				printf("%li, ", sum);
 				sum = sum + fi;
 			}
 		}
