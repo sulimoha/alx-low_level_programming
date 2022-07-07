@@ -10,6 +10,7 @@
 
 int main(void)
 {
+	int i;
 	int f0 = 0;
 	int f1 = 1;
 	int fi = 0;
@@ -18,7 +19,7 @@ int main(void)
 	printf("%d\n", f1);
 	for (i = 2; i < 50; i++)
 	{
-			fi = fi + f0 +f1;
+			fi = fi + f0 + f1;
 			printf("%d\n", fi);
 	}
 	return (0);
