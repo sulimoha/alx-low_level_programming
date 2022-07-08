@@ -16,7 +16,13 @@ void print_number(int n)
 	{
 		_putchar(n + '0');
 	}
-	else if (n >= 10 || n <= -10)
+	if (n < 0 && n > -10)
+	{
+		c = n * -1;
+		_putchar('-');
+		_putchar(c + '0');
+	}
+	if (n >= 10 || n <= -10)
 	{
 		if (n >= 10)
 		{
@@ -53,11 +59,4 @@ void print_number(int n)
 			}
 		}
 	}
-	else
-	{
-		c = n * -1;
-		_putchar('-');
-		_putchar(c + '0');
-	}
 }
-
