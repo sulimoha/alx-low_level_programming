@@ -9,10 +9,15 @@
 void rev_string(char *s)
 {
 	signed int long i;
+	char temp[strlen(s)];
+	signed int long j;
 
 	for (i = (strlen(s) - 1); i > -1; i--)
 	{
-		s[i] = i;
+		temp [streln(s)-1-i] = s[i];
 	}
-	_putchar('\n');
+	for (j = 0; j < strlen(temp); j++)
+	{
+		s[j] = temp [j];
+	}
 }
