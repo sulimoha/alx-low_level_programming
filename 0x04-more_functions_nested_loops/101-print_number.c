@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *print_number - print number
  *@n: int number to be printed using only _putchar
@@ -11,36 +12,36 @@ void print_number(int n)
 	int b;
 	int pV = 0;
 	int firstDigit;
-	
+	int i;
+
 	if (n >= 0 && n < 10)
 	{
 		_putchar(n + '0');
 	}
-	if (n < 0 && n > -10)
+	else if (n < 0 && n > -10)
 	{
-		c = n * -1;
 		_putchar('-');
-		_putchar(c + '0');
+		_putchar(((n * -1) + '0'));
 	}
-	if (n >= 10 || n <= -10)
+	else
 	{
-		if (n >= 10)
+		a = n;
+		if (a < 0)
 		{
-			a = n;
-		}
-		if (n <= -10)
-		{
-			a = -1 * n;
+			a = -1 * a;
+			printf("%d", a);
 		}
 
 		while (a >= 10)
 		{
 			a = a / 10;
 			pV++;
+			printf("%d", pV);
 		}
 		for (i = 0; i < pV; i++)
 		{
 			pow = pow * 10;
+			printf("%d", pow);
 		}
 		b = a;
 		while (b >= 10)
