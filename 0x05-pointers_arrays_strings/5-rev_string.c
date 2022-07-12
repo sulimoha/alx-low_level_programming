@@ -8,7 +8,7 @@
 */
 void rev_string(char *s)
 {
-	signed int long i;
+	unsigned int long i;
 	char temp;
 
 	for (i = 0; i < strlen(s); i--)
