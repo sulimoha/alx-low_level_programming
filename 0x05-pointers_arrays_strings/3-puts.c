@@ -8,7 +8,7 @@
 */
 void _puts(char *str)
 {
-	long unsigned int i;
+	unsigned int long i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
