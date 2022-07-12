@@ -21,7 +21,7 @@ int _atoi(char *s)
 		}
 		else
 		{
-			s[i] = '\0';
+			s[i] = '0';
 		}
 	}
 	if (j >= 0)
