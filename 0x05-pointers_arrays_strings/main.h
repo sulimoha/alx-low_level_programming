@@ -7,6 +7,7 @@ int _strlen(char *s);
 int _putchar(char c);
 void _puts(char *str);
 void print_rev(char *s);
+void rev_string(char *s);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _isupper(int c);
