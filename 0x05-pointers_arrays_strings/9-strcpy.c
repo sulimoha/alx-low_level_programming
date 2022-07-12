@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 {
 	unsigned int long i;
 
-	for (i = 0; i < strlen(stc); i++)
+	for (i = 0; i < strlen(src); i++)
 	{
 		dest[i] = src[i];
 	}
