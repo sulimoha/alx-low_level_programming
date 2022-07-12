@@ -8,17 +8,20 @@
 */
 void rev_string(char *s)
 {
-	signed int long i;
-	int l = strlen(s);
-	char t[trlen(s)];
-	signed int long j;
+	signed int long i, j, k;
+	int l = 0;
 
-	for (i = l - 1; i > -1; i--)
+	for (i = strlen(s) - 1; i > -1; i--)
 	{
-		t [l - 1 - i] = s[i];
+		l++;
 	}
 	for (j = 0; j < l; j++)
 	{
-		s[j] = t [j];
+		t[j] = s [strlen(s) - 1 - i];
+	}
+	for (k = 0, k < l; k++)
+	{
+		s[k] = t[j];
 	}
 }
+
