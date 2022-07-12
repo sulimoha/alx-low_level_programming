@@ -13,6 +13,7 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 void print_alphabet(void);
+int _atoi(char *s);
 void print_alphabet_x10(void);
 int _isupper(int c);
 int _isdigit(int c);
