@@ -26,7 +26,7 @@ int _atoi(char *s)
 	}
 	if (j >= 0)
 	{
-		return ((int)s);
+		return ((double)s);
 	}
 	else 
 	{
