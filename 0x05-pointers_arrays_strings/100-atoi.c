@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int i;
 	int j = -1;
 
-	for (i = 0; i < strlen(s); i++)
+	for (i = 0; i < (int)strlen(s); i++)
 	{
 		if (((int)s[i] >= 48 && (int)s[i] <= 57)
 				|| (int)s[i] == 43 || (int)s[i] == 45)
