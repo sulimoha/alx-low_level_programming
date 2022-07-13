@@ -16,7 +16,10 @@ int _atoi(char *s)
 	{
 		if ((int)s[i] == 45)
 		{
-			sign = -1 * sign;
+			if ((int)s[i + 1] >= 48 && (int)s[i + 1] <= 57)
+			{
+				sign = -1 * sign;
+			}
 		}
 	}
 	for (i = 0; i < (int)strlen(s); i++)
