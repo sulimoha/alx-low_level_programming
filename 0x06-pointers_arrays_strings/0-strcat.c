@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <string.h>
 /**
  * *_strcat - concatenates two strings
@@ -9,5 +9,5 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	return (strcat( str1, str2));
+	return (strcat( dest, src));
 }
