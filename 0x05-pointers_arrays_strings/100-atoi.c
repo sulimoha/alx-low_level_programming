@@ -16,14 +16,14 @@ int _atoi(char *s)
 	{
 		if ((int)s[i] == 45)
 		{
-			sign = sign * -1;
+			sign = -1 * sign;
 		}
 	}
 	for (i = 0; i < (int)strlen(s); i++)
 	{
 		if ((int)s[i] >= 48 && (int)s[i] <= 57)
 		{
-			j = sign * j *10 + (s[i] - '0');
+			j = (sign * j * 10) + (s[i] - '0');
 		}
 		else
 		{
