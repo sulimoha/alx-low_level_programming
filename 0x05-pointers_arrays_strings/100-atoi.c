@@ -9,28 +9,27 @@
 int _atoi(char *s)
 {
 	int i;
-	int j = -1;
+	int j = 0;
+	signed int sign = 1;
 
 	for (i = 0; i < (int)strlen(s); i++)
 	{
-		if (((int)s[i] >= 48 && (int)s[i] <= 57)
-				|| (int)s[i] == 43 || (int)s[i] == 45)
+		if ((int)s[i] == 45)
 		{
-			j++;
-			s[i] = s[i];
+			sign = sign * -1;
+		}
+	}
+	for (i = 0; i < (int)strlen(s); i++)
+	{
+		if ((int)s[i] >= 48 && (int)s[i] <= 57)
+		{
+			j = sign * j *10 + (s[i] - '0');
 		}
 		else
 		{
-			s[i] = '0';
+			j = 0;
 		}
 	}
-	if (j >= 0)
-	{
-		return (*s - '0');
-	}
-	else 
-	{
-		return (0);
-	}
+	return (j);
 }
 
