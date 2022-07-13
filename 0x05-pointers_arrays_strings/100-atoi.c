@@ -9,7 +9,7 @@
 int _atoi(char *s)
 {
 	int i;
-	int j = 0;
+	signed int j = 0;
 	signed int sign = 1;
 
 	for (i = 0; i < (int)strlen(s); i++)
