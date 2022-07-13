@@ -30,6 +30,7 @@ int _atoi(char *s)
 			j = 0;
 		}
 	}
+	sign = 1;
 	return (j);
 }
 
