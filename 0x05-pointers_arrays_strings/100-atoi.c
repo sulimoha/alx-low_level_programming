@@ -2,14 +2,14 @@
 #include <string.h>
 /**
  * _atoi - convert a string to an integer
- * @s : a pointer to s
+ i* @s : a pointer to s
  *
  * Return: char
 */
 int _atoi(char *s)
 {
 	int i;
-	signed int j = 0;
+	unsigned int j = 0;
 	signed int sign = 1;
 
 	for (i = 0; i < (int)strlen(s); i++)
