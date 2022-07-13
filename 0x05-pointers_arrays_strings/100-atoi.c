@@ -23,14 +23,14 @@ int _atoi(char *s)
 	{
 		if ((int)s[i] >= 48 && (int)s[i] <= 57)
 		{
-			j = (sign * j * 10) + (s[i] - '0');
+			j = (j * 10) + (s[i] - '0');
 		}
 		else
 		{
 			j = 0;
 		}
 	}
-	sign = 1;
+	j = sign * j;
 	return (j);
 }
 
