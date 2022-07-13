@@ -27,6 +27,5 @@ int _atoi(char *s)
 		}
 	}
 	j = sign * j;
-	return (j)
+	return (j);
 }
-
