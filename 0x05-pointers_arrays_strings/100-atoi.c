@@ -25,6 +25,13 @@ int _atoi(char *s)
 		{
 			j = (j * 10) + (s[i] - '0');
 		}
+		else
+		{
+			if (j > 0)
+			{
+				break;
+			}
+		}
 	}
 	j = sign * j;
 	return (j);
