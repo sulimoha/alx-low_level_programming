@@ -18,14 +18,11 @@ char *_strcat(char *dest, char *src)
 	{
 		destLen++;
 	}
-	printf("destLen %d\n", destLen);
 	while (src[srcLen] != '\0')
 	{
 		srcLen++;
 	}
-	printf("srcLen %d\n", srcLen);
 	destLen = destLen + srcLen;
-	printf("destLen %d\n", destLen);
 	for (i = 0; i < srcLen; i++)
 	{
 		dest[destLen - srcLen + i] = src[i];
