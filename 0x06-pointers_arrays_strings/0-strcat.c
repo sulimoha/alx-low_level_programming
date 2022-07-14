@@ -14,18 +14,21 @@ char *_strcat(char *dest, char *src)
 	int srcLen = 0;
 
 
-	while (dest[destLen])
+	while (dest[destLen] != '\0')
 	{
 		destLen++;
 	}
-	while (src[srcLen])
+	printf("destLen %d\n", destLen);
+	while (src[srcLen] != '\0')
 	{
 		srcLen++;
 	}
-	destLen = destLen - 1 + srcLen;
-	for (i = 0; i < destLen - 1; i++)
+	printf("srcLen %d\n", srcLen);
+	destLen = destLen + srcLen;
+	printf("destLen %d\n", destLen);
+	for (i = 0; i < srcLen; i++)
 	{
-		dest[i + destLen - 1] = src[i];
+		dest[destLen - srcLen + i] = src[i];
 	}
 	return (dest);
 }
