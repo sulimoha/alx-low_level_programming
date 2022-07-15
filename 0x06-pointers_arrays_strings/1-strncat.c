@@ -33,7 +33,7 @@ char *_strncat(char *dest, char *src, int n)
 			n = srcLen - 1;
 		}
 		destLen = destLen + n;
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			dest[destLen - n + i] = src[i];
 		}
