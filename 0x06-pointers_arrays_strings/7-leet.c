@@ -23,7 +23,7 @@ char *leet(char *s)
 			a = g[j];
 			b = a + 40;
 			c = l[j];
-			if (s[i] == a || b)
+			if (s[i] == a || s[i] == b)
 			{
 				s[i] = c;
 			}
