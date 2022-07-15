@@ -28,20 +28,34 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			srcLen++;
 		}
-		if (destLen <= n)
+		if (destLen >= n)
 		{
-			destLen = n;
+			if (srcLen <= n)
+			{
+				for (i = 0; i <= srcLen; i++)
+				{
+					dest[i] = src[i];
+				}
+				for (i = srcLen + 1; i <= n; i++)
+				{
+					dest[i] = '\0';
+				}
+			}
+			else
+			{
+				for (i = 0; i <= n; i++)
+				{
+					dest[i] = src[i];
+				}
+			}
 		}
 		else
 		{
-			for (i = n + 1; i <= destLen; i++)
+			destLen = n;
+			for (i = 0; i <= n; i++)
 			{
-				dest[i] = '\0';
+				dest[i] = src[i];
 			}
-		}
-		for (i = 0; i <= n; i++)
-		{
-			dest[i] = src[i];
 		}
 		dest[destLen] = '\0';
 		return (dest);
