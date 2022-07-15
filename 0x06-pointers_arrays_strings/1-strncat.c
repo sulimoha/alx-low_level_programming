@@ -30,7 +30,7 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		if (n > srcLen)
 		{
-			n = srcLen;
+			n = srcLen - 1;
 		}
 		destLen = destLen + n;
 		for (i = 0; i <= n; i++)
