@@ -28,10 +28,6 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			srcLen++;
 		}
-		if (n > srcLen)
-		{
-			n = srcLen;
-		}
 		destLen = destLen + n;
 		for (i = 0; i < n; i++)
 		{
