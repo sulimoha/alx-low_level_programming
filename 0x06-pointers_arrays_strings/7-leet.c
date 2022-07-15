@@ -14,8 +14,8 @@ char *leet(char *s)
 	int b;
 	int c;
 	char g[] = {101, 105, 114, 117, 124};
-	char l[] = {52, 51, 49, 48, 55}; 
-
+	char l[] = {52, 51, 49, 48, 55};
+	
 	while (s[i] != '\0')
 	{
 		for (j = 0; j < 5; j++)
