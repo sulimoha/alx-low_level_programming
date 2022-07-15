@@ -21,7 +21,7 @@ char *leet(char *s)
 		for (j = 0; j < 5; j++)
 		{
 			a = g[j];
-			b = a - 32;
+			b = a + 32;
 			c = l[j];
 			if (s[i] == a || s[i] == b)
 			{
