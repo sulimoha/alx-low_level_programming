@@ -75,7 +75,6 @@ int main(void)
 
 							        printf("\n");
 
-printf("%d     %c   ", i, s1[i]);
 								
 
 								    return (0);
