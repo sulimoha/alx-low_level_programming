@@ -28,7 +28,7 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			srcLen++;
 		}
-		if(destLen <= n)
+		if (destLen <= n)
 		{
 			destLen = n;
 		}
