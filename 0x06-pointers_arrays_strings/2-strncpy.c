@@ -32,7 +32,14 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			destLen = n;
 		}
-		for (i = 0; i < n; i++)
+		else
+		{
+			for (i = n + 1; i <= destLen; i++)
+			{
+				dest[i] = '\0';
+			}
+		}
+		for (i = 0; i <= n; i++)
 		{
 			dest[i] = src[i];
 		}
