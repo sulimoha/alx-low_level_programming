@@ -26,18 +26,12 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (a = 0; a <= i; a++)
 		{
+			if (s[a] != 32)
 			{
 				if (accept[a] == s[b])
 				{
-					if (accept[a] == 32)
-					{
-						continue;
-					}
-					else
-					{
 					c++;
 					break;
-					}
 				}
 			}
 		}
