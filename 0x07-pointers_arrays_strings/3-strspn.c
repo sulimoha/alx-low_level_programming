@@ -29,8 +29,15 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				if (accept[a] == s[b])
 				{
+					if(accept[a] == 32)
+					{
+						continue;
+					}
+					else
+					{
 					c++;
 					break;
+					}
 				}
 			}
 		}
