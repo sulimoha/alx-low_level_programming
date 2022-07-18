@@ -18,9 +18,9 @@ int main(void)
 
 {
 
-	    char *s = "hello, world";
+	    char *s = "Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.";
 
-	        char *f = "world";
+	        char *f = "located";
 
 		    char *t;
 
