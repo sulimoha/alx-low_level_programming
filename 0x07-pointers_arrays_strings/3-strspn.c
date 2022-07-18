@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  *_strspn - gets the length of a prefix substring
  * @s : string
