@@ -30,6 +30,7 @@ unsigned int _strspn(char *s, char *accept)
 				if (accept[a] == s[b])
 				{
 					c++;
+					break;
 				}
 			}
 		}
