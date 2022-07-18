@@ -12,10 +12,6 @@ char *_strchr(char *s, char c)
 	int i = 0;
 	int a;
 	
-	if (s[i] = '\0')
-	{
-		_puthcar('\n');
-	}
 	while (s[i])
 	{
 		if (s[i] == c)
@@ -23,9 +19,10 @@ char *_strchr(char *s, char c)
 			a = i;
 			while (s[a])
 			{
-			return ((s + a));
-			a++;
+				s = s + a;
+				a++;
 			}
+			return (s);
 		}
 		i++;
 	}
