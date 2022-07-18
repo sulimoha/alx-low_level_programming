@@ -14,27 +14,18 @@ unsigned int _strspn(char *s, char *accept)
 	int a, b;
 	unsigned int c = 0;
 
-	while (s[i] != 32)
-	{
-		i++;
-	}
 	while (accept[j])
 	{
-		j++;
-	}
-	for (b = 0; b <= j; b++)
-	{
-		for (a = 0; a <= i; a++)
+		i = 0;
+		while (s[i] != 32)
 		{
-			if (s[a] != 32)
+			if (accept[j] == s[i])
 			{
-				if (accept[a] == s[b])
-				{
-					c++;
-					break;
-				}
+				c++;
 			}
+			i++;
 		}
+		j++
 	}
 	return (c);
 }
