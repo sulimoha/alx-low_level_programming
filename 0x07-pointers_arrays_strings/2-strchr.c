@@ -30,5 +30,6 @@ char *_strchr(char *s, char c)
 		s = s + a;
 		a++;
 	}
+	s = s + '\0';
 	return (s);
 }
