@@ -1,5 +1,6 @@
 #include "main.h"
 #include "_putchar.c"
+#include <stdio.h>
 /**
  *_strstr - locates a substring
  * @haystack : string
@@ -15,14 +16,17 @@ char *_strstr(char *haystack, char *needle)
 
 	while (haystack[i])
 	{
-		j = 0;
 		while (needle[j])
 		{
-			if (needle[j] == haystack[i] && needle[j - 1] == haystack[i - 1])
+			if (haystack[i + j] == needle[j])
 			{
-				return (haystack + i - 1);
+				break;
 			}
 			j++;
+		}
+		if (needle[j] == '\0')
+		{
+			return (haystack + i);
 		}
 		i++;
 	}
