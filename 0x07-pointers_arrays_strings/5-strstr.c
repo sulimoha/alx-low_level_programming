@@ -1,6 +1,5 @@
 #include "main.h"
 #include "_putchar.c"
-#include <stdio.h>
 /**
  *_strstr - locates a substring
  * @haystack : string
