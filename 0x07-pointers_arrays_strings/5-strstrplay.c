@@ -24,6 +24,10 @@ char *_strstr(char *haystack, char *needle)
 	{
 		p++;
 	}
+	if (p > l)
+	{
+		return ('\0');
+	}
 	for (i = 0; i < l - 1; i++)
 	{
 		for (j = 0; j <= p - 1; j++)

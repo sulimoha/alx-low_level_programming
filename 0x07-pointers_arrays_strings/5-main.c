@@ -22,7 +22,7 @@ int main(void)
 
 		char *s = "First, solve the problem. Then, write the code.";
 
-			char *f = "";
+			char *f = "First, solve the problem. Then, write the code. and more";
 
 				char *t;
 
