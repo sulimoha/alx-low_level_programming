@@ -1,12 +1,14 @@
-#include "main.h"
-
 #include <stdio.h>
+
+
+
+char *_strstr(char *, char *);
 
 
 
 /**
  *
- *  * main - check the code
+ *  * main - check the code for Holberton School students.
  *
  *   *
  *
@@ -18,18 +20,18 @@ int main(void)
 
 {
 
-	    char *s = "hello, world";
+		char *s = "First, solve the problem. Then, write the code.";
 
-	        char *f = "tea";
+			char *f = "solve";
 
-		    char *t;
+				char *t;
 
 
 
-		        t = _strstr(s, f);
+					t = _strstr(s, f);
 
-			    printf("%s\n", t);
+						printf("%s\n", (t == NULL ? "nil" : t));
 
-			        return (0);
+							return (0);
 
 }
