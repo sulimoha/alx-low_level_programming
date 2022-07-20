@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *_strstr - locates a substring
  * @haystack : string
@@ -31,10 +32,12 @@ char *_strstr(char *haystack, char *needle)
 					[i + 1] == needle[j + 1])
 					)
 			{
+				printf ("hay = %c, needle = %c\n", haystack[i], needle[j]);
 
 				a++;
 				if (a == p - 1)
 				{
+					printf ("a = %d, p = %d\n", a, p);
 					return (needle);
 				}
 			}
