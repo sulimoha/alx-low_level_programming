@@ -12,7 +12,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	int i;
 	int j;
-	int a = 0;
+	int a = 1;
 	int l = 0;
 	int p = 0;
 
@@ -26,18 +26,23 @@ char *_strstr(char *haystack, char *needle)
 	}
 	for (i = 0; i < l - 1; i++)
 	{
-		for (j = 0; j < p - 1; j++)
+		for (j = 0; j <= p - 1; j++)
 		{
 			if ((haystack[i] == needle[j] && haystack
 					[i + 1] == needle[j + 1])
 					)
 			{
 				printf ("hay = %c, needle = %c\n", haystack[i], needle[j]);
+				printf ("hay = %c, needle = %c\n", haystack[i + 1], needle[j + 1]);
 
 				a++;
-				if (a == p - 1)
+				if (haystack[i + 1] == needle[j + 1] && j == p - 1)
 				{
-					printf ("a = %d, p = %d\n", a, p);
+					a++;
+				}
+				printf ("a = %d, p = %d\n", a, p);
+				if (a == p)
+				{
 					return (needle);
 				}
 			}
