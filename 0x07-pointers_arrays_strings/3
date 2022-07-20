@@ -24,25 +24,32 @@ char *_strstr(char *haystack, char *needle)
 	{
 		p++;
 	}
-	for (i = 0; i < l - 1; i++)
+	for (i = 0; i < l; i++)
 	{
-		for (j = 0; j < p - 1; j++)
+		for (j = 0; j < p; j++)
 		{
 			if ((haystack[i] == needle[j] && haystack
 					[i + 1] == needle[j + 1])
-					)
+					|| (haystack[i] = needle[j] && j == p))
 			{
 				printf ("hay = %c, needle = %c\n", haystack[i], needle[j]);
 
 				a++;
-				if (a == p - 1)
+				if (a == p)
 				{
-					printf ("a = %d, p = %d\n", a, p);
 					return (needle);
 				}
 			}
 
 		}
 	}
+	printf ("a = %d, p = %d\n", a, p);
+	if (a == p)
+	{
+		return (needle);
+	}
+	else
+	{
 	return ('\0');
+	}
 }
