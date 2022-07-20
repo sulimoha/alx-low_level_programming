@@ -23,7 +23,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		p++;
 	}
-	for (i = 0; i < l - 1; i++)
+	for (i = 0; i < l; i++)
 	{
 		for (j = 0; j < p; j++)
 		{
