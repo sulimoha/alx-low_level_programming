@@ -23,18 +23,14 @@ int _sqrt_recursion(int n)
 */
 int sqf(int i, int n)
 {
-	int a;
 
-	if (i * i < n)
-	{
-		i++;
-		sqf(i, n);
-	}
 	if (i * i == n)
 	{
-		a = i;
-		return (a);
+		return (i);
 	}
-	a = -1;
-	return (a);
+	if (i * i > n)
+	{
+		return (-1);
+	}
+	return (sqf(i + 1, n));
 }
