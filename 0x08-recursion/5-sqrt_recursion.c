@@ -29,7 +29,7 @@ int sqf(int i, int n)
 	}
 	if (i * i == n)
 	{
-		return (i);
+		return (n / i);
 	}
 	return (-1);
 }
