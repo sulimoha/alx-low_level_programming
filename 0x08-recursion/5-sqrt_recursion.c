@@ -12,10 +12,9 @@ int sqf(int i, int n)
 	{
 		return (i);
 	}
-	i++;
 	if (i <= n)
 	{
-		sqf(i, n);
+		sqf(i + 1, n);
 	}
 	return (-1);
 }
