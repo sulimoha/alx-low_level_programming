@@ -16,10 +16,11 @@ int sqf(int i, int n)
 	{
 		return (i);
 	}
-	if (i < n)
+	if (i * i > n)
 	{
-		sqf(i + 1, n);
+		return (-1);
 	}
+	sqf(i + 1, n);
 	return (-1);
 }
 
