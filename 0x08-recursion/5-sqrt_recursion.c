@@ -14,7 +14,7 @@ int sqf(int i, int n)
 	}
 	if ((i * i) < n)
 	{
-	sqf(i + 1, n);
+	sqf((i + 1), n);
 	}
 	return (-1);
 }
@@ -27,5 +27,5 @@ int sqf(int i, int n)
 */
 int _sqrt_recursion(int n)
 {
-	return (sqf(1, n));
+	return (sqf(0, n));
 }
