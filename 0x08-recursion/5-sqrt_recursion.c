@@ -15,12 +15,11 @@ int sqf(int i, int n)
 	i++;
 	if (i <= n)
 	{
-		sqf(i,n);
+		sqf(i, n);
 	}
 	return (-1);
 }
 
-	
 /**
  *_sqrt_recursion - the natural square root of a number.
  * @n : a number to find the sqrt for
