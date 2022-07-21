@@ -25,8 +25,7 @@ int sqf(int i, int n)
 {
 	if (i * i < n)
 	{
-		i++;
-		sqf(i, n);
+		sqf(i + 1, n);
 	}
 	if (i * i > n)
 	{
