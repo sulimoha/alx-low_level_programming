@@ -24,6 +24,7 @@ int _sqrt_recursion(int n)
 int sqf(int i, int n)
 {
 	int a;
+
 	if (i * i < n)
 	{
 		i++;
