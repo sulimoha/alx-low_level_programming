@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 int sqf(int i, int n);
 
@@ -22,14 +23,14 @@ int _sqrt_recursion(int n)
 */
 int sqf(int i, int n)
 {
-	if ((i * i) == n)
-	{
-		return (i);
-	}
-	if ((i * i) < n)
+	if (i * i < n)
 	{
 		i++;
 		sqf(i, n);
 	}
-	return (-1);
+	if(i * i > n)
+	{
+		return (-1);
+	}
+	return (i);
 }
