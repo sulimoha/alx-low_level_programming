@@ -8,19 +8,14 @@
 */
 int sqf(int i, int n)
 {
-	if (n == 0)
-	{
-		return (0);
-	}
-	if (i * i == n)
+	if ((i * i) == n)
 	{
 		return (i);
 	}
-	if (i * i > n)
+	if ((i * i) < n)
 	{
-		return (-1);
-	}
 	sqf(i + 1, n);
+	}
 	return (-1);
 }
 
