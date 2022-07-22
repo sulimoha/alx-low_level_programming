@@ -12,6 +12,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int sqf(int i, int n);
 int is_prime_number(int n);
+int is_palindrome(char *s);
 int _sqrt_recursion(int n);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
