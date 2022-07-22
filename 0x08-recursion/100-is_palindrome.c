@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 int _strlen_recursion(char *s);
 int strcom(char *a);
 /**
