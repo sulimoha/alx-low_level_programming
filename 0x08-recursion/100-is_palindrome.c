@@ -1,7 +1,7 @@
 #include "main.h"
 #include "_putchar.c"
 int _strlen_recursion(char *s);
-/*char *revstr(char *a);*/
+int strcom(char *a);
 /**
 *_strlen_recursion - returns the length of a string.
 * @s : a pointer to a string 
