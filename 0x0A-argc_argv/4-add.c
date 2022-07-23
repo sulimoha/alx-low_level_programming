@@ -32,6 +32,10 @@ int main(int argc, char *argv[])
 			sum = sum + atoi(s);
 			s++;
 		}
+		printf("%d\n", sum);
+	}
+	else
+	{
 		printf("0\n");
 	}
 	return (0);
