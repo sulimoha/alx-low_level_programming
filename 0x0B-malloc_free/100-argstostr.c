@@ -18,6 +18,8 @@ int _strlen(char *s)
 #include "main.h"
 #include <stdlib.h>
 #include <limits.h>
+
+int _strlen(char *s);
 /**
  *argstostr - concatenates all the arguments of your program.
  *@ac : arguments count
@@ -34,7 +36,7 @@ char *argstostr(int ac, char **av)
 	int k;
 	int l;
 
-	if (ac ==0 || av == NULL)
+	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
 	}
@@ -48,7 +50,7 @@ char *argstostr(int ac, char **av)
 		free(t);
 		return (NULL);
 	}
-	for (k = 0; k < ac; k ++)
+	for (k = 0; k < ac; k++)
 	{
 		for (l = 0; l < _strlen(av[k]); l++)
 		{
