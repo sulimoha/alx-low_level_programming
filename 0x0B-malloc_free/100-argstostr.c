@@ -47,7 +47,6 @@ char *argstostr(int ac, char **av)
 	t = malloc(tlen);
 	if (t == NULL)
 	{
-		free(t);
 		return (NULL);
 	}
 	for (k = 0; k < ac; k++)
