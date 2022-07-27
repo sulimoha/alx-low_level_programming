@@ -33,8 +33,8 @@ char *argstostr(int ac, char **av)
 	int i = 0;
 	int tlen = ac + 1;
 	int a = 0;
-	int k;
-	int l;
+	int b;
+	int c;
 
 	if (ac == 0 || av == NULL)
 	{
@@ -49,14 +49,21 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (k = 0; k < ac; k++)
+	a = 0;
+	while (av[a])
 	{
-		for (l = 0; l < _strlen(av[k]); l++)
+		while (av[a][b])
 		{
-			t[a + l] = *av[l];
+			t[c] = av[a][b];
+			c++;
+			b++;
 		}
-		a = a + l;
-		t[a + 1] = *"\n";
+		s[k] = '\n';
+		b = 0;
+		c++;
+		a++;
 	}
+	c++;
+	t[c] = '\0';
 	return (t);
 }
