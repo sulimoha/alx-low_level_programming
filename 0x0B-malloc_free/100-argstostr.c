@@ -41,7 +41,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	while (i< ac)
+	while (i<ac)
 	{
 		j = 0;
 		while (av[i][j])
@@ -51,7 +51,7 @@ char *argstostr(int ac, char **av)
 		}
 		i++;
 	}
-	t = malloc(tlen * sizeof (char) + ac + 1);
+	t = malloc(tlen * sizeof(char) + ac + 1);
 	if (t == NULL)
 	{
 		return (NULL);
