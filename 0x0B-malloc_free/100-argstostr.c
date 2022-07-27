@@ -58,7 +58,7 @@ char *argstostr(int ac, char **av)
 			c++;
 			b++;
 		}
-		s[k] = '\n';
+		t[c] = '\n';
 		b = 0;
 		c++;
 		a++;
