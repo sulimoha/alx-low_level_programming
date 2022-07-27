@@ -31,20 +31,27 @@ char *argstostr(int ac, char **av)
 {
 	char *t;
 	int i = 0;
-	int tlen = ac + 1;
+	int j = 0;
+	int tlen = 0;
 	int a = 0;
-	int b;
-	int c;
+	int b = 0;
+	int c = 0;
 
 	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < ac; i++)
+	while (i< ac)
 	{
-		tlen = tlen + _strlen(av[i]) * sizeof(char);
+		j = 0;
+		while (av[i][j])
+		{
+			tlen++;
+			j++;
+		}
+		i++;
 	}
-	t = malloc(tlen);
+	t = malloc(tlen * sizeof (char) + ac + 1);
 	if (t == NULL)
 	{
 		return (NULL);
