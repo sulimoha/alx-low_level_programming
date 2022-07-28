@@ -46,6 +46,7 @@ int main(void)
 						    d = malloc_checked(INT_MAX);
 
 						        printf("%p\n", (void *)d);
+							malloc_checked(0);
 
 							    free(c);
 
