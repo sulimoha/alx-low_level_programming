@@ -1,4 +1,5 @@
 #ifndef HEADER_H
 #define HEADER_H
-#define ABS(x) {ABS((X))}
+#include "6-abs.c"
+#define ABS(x) (_abs(x))
 #endif
