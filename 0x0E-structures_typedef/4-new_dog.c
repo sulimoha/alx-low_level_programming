@@ -20,7 +20,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	dognew->name = name;
-	dognew->owner = owner;
 	dognew->age = age;
+	dognew->owner = owner;
 	return (dognew);
 }
