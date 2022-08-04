@@ -13,15 +13,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list sap;
 	unsigned int i;
-	char* s;
+	char *s;
 
 	if (n > 0)
 	{
 		va_start(sap, n);
-		s = va_arg(sap, char *);
 	}
 	for (i = 0; i < n; i++)
 	{
+		s = va_arg(sap, char *);
 		if (s != NULL)
 		{
 			/* Get the next argument value. */
