@@ -2,8 +2,6 @@
 #include "variadic_functions.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdio.h>
-#include <ctype.h>
 /**
  * print_numbers - prints numbers, followed by a new line.
  * @separator : is the string to be printed between numbers
