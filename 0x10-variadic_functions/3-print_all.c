@@ -20,6 +20,7 @@ void print_all(const char * const format, ...)
 	unsigned int i = 0, j = 0;
 	char *separator = "";
 	va_start(args, format);
+
 	while (format != NULL && format[i])
 	{
 		j = 0;
@@ -80,6 +81,7 @@ void _print_f(char *separator, va_list args)
 void _print_s(char *separator, va_list args)
 {
 	char *arg = va_arg(args, char *);
+
 	if (arg == NULL)
 	{
 		printf("%s%s", separator, "(nil)");
