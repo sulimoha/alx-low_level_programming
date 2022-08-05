@@ -44,7 +44,7 @@ void print_all(const char * const format, ...)
  *
  * Return: void
  */
-void print_a_char(char *separator, va_list args)
+void _print_char(char *separator, va_list args)
 {
 	printf("%s%c", separator, va_arg(args, int));
 }
@@ -55,7 +55,7 @@ void print_a_char(char *separator, va_list args)
  *
  * Return: void
  */
-void print_int(char *separator, va_list args)
+void _print_int(char *separator, va_list args)
 {
 	printf("%s%i", separator, va_arg(args, int));
 }
@@ -66,7 +66,7 @@ void print_int(char *separator, va_list args)
  *
  * Return: void
  */
-void print_f(char *separator, va_list args)
+void _print_f(char *separator, va_list args)
 {
 	printf("%s%f", separator, va_arg(args, double));
 }
@@ -77,7 +77,7 @@ void print_f(char *separator, va_list args)
  *
  * Return: void
  */
-void print_s(char *separator, va_list args)
+void _print_s(char *separator, va_list args)
 {
 	char *arg = va_arg(args, char *);
 	if (arg == NULL)
