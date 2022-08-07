@@ -7,10 +7,10 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 /**
- *  * type_of_args - Struct type_of_args
- *   * @identifier: The conversion specifier
- *    * @f: The function pointer
- *     */
+ *type_of_args - Struct type_of_args
+ *@t: The data specifier
+ *@f: The function pointer
+ */
 typedef struct type_of_args
 {
 	char *t;
