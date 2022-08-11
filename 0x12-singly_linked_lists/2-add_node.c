@@ -34,18 +34,19 @@ list_t *add_node(list_t **head, const char *str)
 	return (0);
 }
 /**
- *_str_len - returns the length of a string
+ *_strlen - returns the length of a string
  * @str: a pointer to the string
  *
- * Return: the lenght 
+ * Return: the lenght
 */
 int _strlen(const char *str)
 {
 	int i = 0;
-	while(*str)
+
+	while (*str)
 	{
 		str++;
 		i++;
 	}
-	return(i);
+	return (i);
 }
