@@ -4,8 +4,8 @@
 #include<string.h>
 /**
  *add_node_end - adds a new node at the end of a list_t list.
- * @head: head of the node
- *@str: pointer the the str to be duplicated
+ * @head: head node
+ *@str: pointer the the str to be added to the node
  *
  * Return: the address of the new element, or NULL if it failed
 */
@@ -30,7 +30,12 @@ list_t *add_node_end(list_t **head, const char *str)
 		}
 		new_node->len = i;
 		new_node->next = NULL;
-		if (*head != NULL)
+		if (*head == NULL)
+		{
+			*head = new_node;
+			return (*head);
+		}
+		else
 		{
 			temp = *head;
 			while (temp->next)
@@ -39,11 +44,6 @@ list_t *add_node_end(list_t **head, const char *str)
 			}
 			temp->next = new_node;
 			return (temp);
-		}
-		else
-		{
-			*head = new_node;
-			return (*head);
 		}
 	}
 	return (NULL);
