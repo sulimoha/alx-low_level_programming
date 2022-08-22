@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * read_textfile - a function that reads a text file and prints
  * it to the POSIX standard output.
@@ -13,11 +12,10 @@
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t fd;
-	size_t i = 0;
+	int fd, readable;
 	char *buf;
 
-	buf = malloc(letters * sizeof(size_t));
+	buf = malloc(letters * sizeof(char));
 	if (buf == NULL)
 	{
 		return (0);
@@ -32,12 +30,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	read(fd, buf, letters);
+	readable = read(fd, buf, letters);
+	write(STDOUT_FILENO, buf, readable);
 	close(fd);
-	for (i = 0; i < letters; i++)
-	{
-		_putchar(buf[i]);
-	}
-	_putchar('\0');
-	return (i);
+
+	return (readable);
 }
