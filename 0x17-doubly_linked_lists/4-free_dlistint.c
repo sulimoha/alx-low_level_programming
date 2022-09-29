@@ -10,7 +10,7 @@ void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *post;
 
-	if(!head)
+	if (!head)
 	{
 		return;
 	}
@@ -19,7 +19,7 @@ void free_dlistint(dlistint_t *head)
 	{
 		free(head);
 		head = post;
-		if(post)
+		if (post)
 		{
 			post = post->next;
 		}
