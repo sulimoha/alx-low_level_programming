@@ -49,6 +49,9 @@ int main(void)
     printf("-----------------\n");
 
     insert_dnodeint_at_index(&head, 5, 4096);
+    insert_dnodeint_at_index(&head, 0, 10000000);
+    insert_dnodeint_at_index(&head, 11, 888888);
+    insert_dnodeint_at_index(&head, -1, 10000000);
 
     print_dlistint(head);
 
