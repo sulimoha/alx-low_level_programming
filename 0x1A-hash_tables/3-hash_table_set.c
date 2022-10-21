@@ -10,6 +10,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	int idx;
 	hash_node_t *node;
+
+
 	if (key == NULL || strlen(key) == 0 || ht == NULL)
 		return (0);
 	idx = key_index((const unsigned char *) key, ht->size);
