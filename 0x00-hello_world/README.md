@@ -78,7 +78,7 @@ This C program prints "and that piece of art is useful" - Dora Korpar, 2015-10-1
 
 **Author**: [Mohamed Suliman](https://www.linkedin.com/in/mohamed-suliman-o/)
 
-**LinkedIn**: [https://www.linkedin.com/in/mohamed-suliman-o/](https://www.linkedin.com/in/yourusername/)
+**LinkedIn**: [https://www.linkedin.com/in/mohamed-suliman-o/](https://www.linkedin.com/in/mohamed-suliman-o/)
 
 **Email**: [:sulimmoh@gmail.com](mailto:sulimmoh@gmail.com)
 
