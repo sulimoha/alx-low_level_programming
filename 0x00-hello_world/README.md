@@ -3,17 +3,16 @@
 
 This repository contains C programs that demonstrate various concepts in low-level programming. Below are the descriptions of each task and their respective scripts:
 
-## Task 0: Preprocessor
+## [Task 0: Preprocessor](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
 
 ### Script: `0-preprocessor`
-
 This script takes a C file specified by the environment variable `$CFILE`, runs it through the preprocessor, and saves the result in a file named `c`. For example:
 ```bash
 $ export CFILE=main.c
 $ ./0-preprocessor
 ```
 
-## Task 1: Compiler
+## [Task 1: Compiler](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/1-compiler)
 
 ### Script: `1-compiler`
 
@@ -23,7 +22,7 @@ $ export CFILE=main.c
 $ ./1-compiler
 ```
 
-## Task 2: Assembler
+## [Task 2: Assembler](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/2-assembler)
 
 ### Script: `2-assembler`
 
@@ -33,7 +32,7 @@ $ export CFILE=main.c
 $ ./2-assembler
 ```
 
-## Task 3: Name
+## [Task 3: Name](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/3-name)
 
 ### Script: `3-name`
 
@@ -43,25 +42,25 @@ $ export CFILE=main.c
 $ ./3-name
 ```
 
-## Task 4: Hello, puts
+## [Task 4: Hello, puts](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c)
 
 ### Script: `4-puts.c`
 
 This C program prints "Programming is like building a multilingual puzzle" followed by a new line using the `puts` function. The program returns 0.
 
-## Task 5: Hello, printf
+## [Task 5: Hello, printf](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)
 
 ### Script: `5-printf.c`
 
 This C program prints "with proper grammar, but the outcome is a piece of art," followed by a new line using the `printf` function. The program returns 0.
 
-## Task 6: Size is not grandeur, and territory does not make a nation
+## [Task 6: Size is not grandeur, and territory does not make a nation](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c)
 
 ### Script: `6-size.c`
 
 This C program prints the size of various data types on the computer it is compiled and run on. It produces the same output for both 32-bit and 64-bit systems.
 
-## Task 7: Intel
+## [Task 7: Intel](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)
 
 ### Script: `100-intel`
 
@@ -71,7 +70,7 @@ $ export CFILE=main.c
 $ ./100-intel
 ```
 
-## Task 8: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+## [Task 8: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](https://github.com/sulimoha/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c)
 
 ### Script: `101-quote.c`
 
